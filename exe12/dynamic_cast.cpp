@@ -42,7 +42,7 @@ int main(int argc, char const *argv[])
     p = dynamic_cast<BaseClass*>(&d); // point to base but use virtual functionality of func1()
     if (!p) exit(1);  
     p->func1(); // print derived 
-    // p->func2(); // do not have an acess  
+    // p->func2(); // do not have an access  
     
     return 0;
 }
